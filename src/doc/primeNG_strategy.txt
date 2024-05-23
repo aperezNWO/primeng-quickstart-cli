@@ -31,7 +31,7 @@
 
       -- [_] packages.json
 
-             -- [_]  "deploy-and-publish": "ng build --c=production --base-href=\"https://apereznwo.github.io/PRIMENG_DEMO_ENV_PROD/\" && npx ngh --dir=dist\\primeng-demo-env-prod\\browser"
+             -- [_]  "deploy-and-publish": "ng build --c=production --base-href=\"https://apereznwo.github.io/PRIMENG_DEMO_ENV_PROD/\" && npx ngh --dir=dist\\primeng-quickstart-cli"
   
              -- [_] npm run deploy-and-publish
 
