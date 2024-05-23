@@ -1,0 +1,66 @@
+***********************************************************
+-- PRIME NG STRATEGY
+***********************************************************
+
+
+-- [_] Crear aplicativo de ceros
+
+       -- [x] ng new PRIMENG_DEMO_ENV_PROD
+
+       -- [_] abrir / compilar / ejecyutar proyecto en visual studio code.
+
+              -- [x] npm run build.
+
+              -- [x] npm run start.
+
+       -- [X] crar repositorio github.
+
+              -- [X] https://github.com/apereznwo/primeng-quickstart-cli
+
+       -- [_] agregar a github.
+
+              -- [_] git init
+              -- [_] git branch -M main
+              -- [_] git remote add origin https://github.com/apereznwo/primeng-quickstart-cli
+              -- [_] git add *
+              -- [_] git commit -m "strategy update"
+              -- [_] git push --set-upstream origin main
+              -- [_] git pull (si todo es correcto debe decir "Already Up to date")
+
+-- [_] publish on git hub pages
+
+      -- [_] packages.json
+
+             -- [_]  "deploy-and-publish": "ng build --c=production --base-href=\"https://apereznwo.github.io/PRIMENG_DEMO_ENV_PROD/\" && npx ngh --dir=dist\\primeng-demo-env-prod\\browser"
+  
+             -- [_] npm run deploy-and-publish
+
+             -- [_] browse url : https://apereznwo.github.io/PRIMENG_DEMO_ENV_PROD
+             
+-- [_] PRIME NG
+
+       -- [_] install
+       
+              -- [_] https://primeng.org/installation
+
+              -- [_] npm install primeng
+
+              -- [_] angular.json
+
+                     "styles": [
+                     "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+                     "node_modules/primeng/resources/primeng.min.css",
+                     ...
+                     ]
+
+              -- [_] styles.css
+
+                     @import "primeng/resources/themes/lara-light-blue/theme.css";
+                     @import "primeng/resources/primeng.css"
+
+       -- [_] QUCK START
+
+              -- [_] https://github.com/primefaces/primeng-quickstart-cli
+
+
+***********************************************************
