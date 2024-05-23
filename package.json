@@ -9,13 +9,13 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --c=production --base-href=\"https://apereznwo.github.io/primeng-quickstart-cli\"",
+    "deploy": "ng build --c=production --base-href=\"https://apereznwo.github.io/primeng-quickstart-cli/\"",
     "publish": "npx ngh --dir=dist\\primeng-quickstart-cli",
-    "deploy-and-publish": "npm cache clean --force && ng build --c=production --base-href=\"https://apereznwo.github.io/primeng-quickstart-cli.git/\" && npx ngh --dir=dist\\primeng-quickstart-cli"
+    "deploy-and-publish": "npm cache clean --force && ng build --c=production --base-href=\"https://apereznwo.github.io/primeng-quickstart-cli/\" && npx ngh --dir=dist\\primeng-quickstart-cli"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apereznwo/primeng-quickstart-cli"
+    "url": "https://github.com/apereznwo/primeng-quickstart-cli/"
   },
   "dependencies": {
     "@angular/animations": "^15.2.0",
